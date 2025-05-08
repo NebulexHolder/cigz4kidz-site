@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cigz 4 Kidz™</title>
+  <style>
+  	html {
+		scroll-behavior: smooth;
+	}
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #eee;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header img.logo {
+      position: absolute;
+      left: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 60px;
+    }
+	
+	nav {
+		background-color: #222;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0.5rem 0;
+		height: 50px;
+	}
+
+	nav .nav-link {
+		color: #eee;
+		text-decoration: none;
+		margin: 0 1.5rem;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		transition: color 0.3s ease, text-shadow 0.3s ease;
+	}
+
+	nav .nav-link img {
+		width: 27px;
+		height: 20px;
+		margin-right: 0.8rem;
+	}
+
+    .nav-link:hover {
+      color: #fff;
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .product {
+      background-color: #1f1f1f;
+      border: 2px solid #444;
+      border-radius: 10px;
+      width: 220px;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .product p {
+      font-size: 0.95rem;
+      color: #bbb;
+    }
+
+    .product button {
+      margin-top: 0.8rem;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.1s ease-in-out;
+    }
+
+    .product button:hover {
+      background-color: #555;
+	  transform: scale(1.1);
+    }
+
+    section.customers {
+      background-color: #181818;
+      padding: 3rem 2rem;
+      margin-top: 3rem;
+    }
+
+    .customer-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: white;
+    }
+
+    .testimonial {
+      display: flex;
+      align-items: center;
+      max-width: 900px;
+      margin: 1.5rem auto;
+      background-color: #222;
+      padding: 1.5rem;
+      border-radius: 10px;
+      gap: 1.5rem;
+    }
+
+    .testimonial img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #444;
+    }
+
+    .testimonial-text {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    .stars {
+      font-size: 1.5rem;
+      color: gold;
+      margin-bottom: 0.5rem;
+    }
+
+	.customer-line {
+		border: none;
+		border-top: 1px solid #444;
+		width: 100%;
+		margin-top: 1rem;
+	}
+    .testimonial + .testimonial {
+      margin-top: 2rem;
+    }
+
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Headline -->
+  <header>
+    <img src="Nebulex Logo.png" alt="Logo" class="logo" />
+    <h1>Cigz 4 Kidz™</h1>
+  </header>
+  
+  <!-- Navigation Buttons -->
+  <nav>
+    <a href="https://discord.gg/EythfyPyed" class="nav-link">
+      <img src="Discord logo.png" alt="Discord Logo" />
+      Discord
+    </a>
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">Shop</a>
+    <a href="#" class="nav-link">Contact</a>
+  </nav>
+
+  <section id="about" style="padding: 3rem 2rem; background-color: #1f1f1f; color: #eee;">
+    <h2 class="customer-title" style="text-align: center;">About Cigz 4 Kidz</h2>
+    <p style="font-size: 1.2rem; text-align: center; max-width: 800px; margin: 0 auto;">
+      Here at Cigz 4 Kidz™, we pride ourselves in our inclusivity of our products. Unlike other brands, we want everyone to enjoy the benefits of nicotine no matter what age they are.
+    </p>
+  </section>
+  <!-- Products -->
+  <main>
+    <div class="product">
+      <img src="gigachad.png" alt="Giga Chad Red" />
+      <h3>GigaChad Red</h3>
+      <p>Tastes like 3000 hours spent in the gym (Strawberry Cherry)</p>
+      <p class="price">$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="sigmablue.png" alt="Sigma Blue" />
+      <h3>Sigma Blue</h3>
+      <p>Tastes like escaping the matrix and owning a bugatti (Blue Raspberry)</p>
+      <p class="price">$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="racistraspberry.png" alt="Racist Raspberry" />
+      <h3>Racist Raspberry</h3>
+      <p>Tastes like white people saying Controversial slurs (Raspberry) handle with caution!</p>
+      <p class="price">$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="gyattgreen.png" alt="Gyatt" />
+      <h3>Gyatt Green</h3>
+      <p>Tastes like that phat gyatt you saw last Tuesday (Lime)</p>
+      <p class="price">$15.00</p>
+      <button>Add to Cart</button>
+    </div>
+  <!-- More flavours coming soon -->
+<section class="more-flavours">
+  <h2>More flavors coming soon!</h2>
+  <p>Stay tuned for new, exciting flavors coming your way. We are constantly innovating to bring you the best!</p>
+  <img src="Baby.jpg" alt="Cigz4Kidz" style="max-width: 300px; width: 100%; margin-top: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);" />
+</section>
+  </main>
+  
+  <!-- Customer Reviews -->
+<section class="customers">
+  <h2 class="customer-title">Our Customers</h2>
+  
+  <!-- That Person Review -->
+<div class="testimonial">
+  <img src="ThatPerson.png" alt="Customer Image" />
+  <div class="testimonial-text">
+    <div class="stars">★★★★★</div>
+    <p>"Great selection, fast shipping, and reliable service. Always a smooth experience—my go-to site for quality products."</p>
+    <p><strong>- That Person</strong></p>
+    <hr class="customer-line" />
+  </div>
+</div>
+
+  <!-- Plantomic Review -->
+<div class="testimonial">
+  <img src="plantomic.png" alt="Customer Image" />
+  <div class="testimonial-text">
+    <div class="stars">★★★★★</div>
+    <p>"Ordered at 2am during an existential crisis. Showed up before my will to live did. 10/10."</p>
+    <p><strong>- Plantomic</strong></p>
+    <hr class="customer-line" />
+  </div>
+</div>
+
+  <!-- Doom Review -->
+<div class="testimonial">
+  <img src="Doom.png" alt="Customer Image" />
+  <div class="testimonial-text">
+    <div class="stars">★★★★★</div>
+    <p>"I need my smokes, and this site delivers. Fast, reliable, and they even ship to Mexico. Perfect."</p>
+    <p><strong>- Doom</strong></p>
+    <hr class="customer-line" />
+  </div>
+</div>
+
+  <!-- Vetexed Review -->
+<div class="testimonial">
+  <img src="Vetexed.jpg" alt="Customer Image" />
+  <div class="testimonial-text">
+    <div class="stars">★★★★★</div>
+    <p>"Lungs hate it. I don’t. Perfect."</p>
+    <p><strong>- Vetexed</strong></p>
+    <hr class="customer-line" />
+  </div>
+</div>
+
+  <!-- IHateTheGoverment Review -->
+<div class="testimonial">
+  <img src="CatEarth.png" alt="Customer Image" />
+  <div class="testimonial-text">
+    <div class="stars">★★★★☆</div>
+    <p>"Great service and fast delivery, but the selection is a bit limited. If they could add more cigz, this would be a perfect site."</p>
+    <p><strong>- IHateTheGoverment</strong></p>
+    <hr class="customer-line" />
+  </div>
+</div>
+
+</section>
+  <!-- footer -->
+<footer>
+  <p style="margin: 0;">&copy; 2025 Cigz 4 Kidz™. All Rights Reserved.</p>
+  <p style="margin: 0 0 0.5rem 0;">
+    Contact <a href="mailto:plantomic@cigz4kidz.com" style="color: #aaa; text-decoration: underline;">plantomic@cigz4kidz.com</a> if there are any issues.
+  </p>
+</footer>
+
+</body>
+</html>
