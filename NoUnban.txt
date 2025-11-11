@@ -4,8 +4,11 @@
   "Brianloveslisa": 106272708,
   "DragonessLisa": 107263615,
   "Stampalooony": 955059236,
-  "AlexTron7": 118397277
+  "AlexTron7": 118397277,
+  "pokemon45km": 71243418,
+  "5xu5": 1403213742
 }
+
 
 
 
