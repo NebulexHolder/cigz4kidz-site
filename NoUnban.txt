@@ -8,7 +8,7 @@
   "pokemon45km": 71243418,
   "5xu5": 1403213742,
   "jakesukzpp": 3257572997,
-  "GabrielosoXDyt2018": 652406238,
+  "GabrielosoXDyt2018": 652406238
 }
 
 
